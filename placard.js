@@ -10,7 +10,7 @@ roll: function(str){
     nbRoll = 1;
   }
   var rolls = [];
-  if (nbRoll > 20) {
+  if (nbRoll > 100) {
     return 'As tu vraiment besoin de lancer autant de dés ?';
   }
   if (![4,6,8,10,12,20,100].includes(max)) {
