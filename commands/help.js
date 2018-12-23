@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "Besoin d'un peu d'aide ? :smile:",
+    title: "Bonsoir ${message.author} ! Je m'appelle Connor !",
     //pour mettre un lien dans le titre
     //url: "http://google.com",
     description: "Voici la liste des commandes que je connais :",
@@ -18,26 +18,14 @@ exports.run = (client, message, args) => {
       value: "Pong !"
     },
     {
-      name: "Say",
-      value: "Pour me faire dire n'importe quoi :yum:"
-    },
-    {
-      name: "Roll",
-      value: "Pour montrer au MJ qui est le boss :sunglasses:"
-    },
-    {
       name: "Calc",
       value: "Et oui je fais aussi calculatrice !"
-    },
-    {
-      name: "summonerstest",
-      value: "Pour tester votre connaissance de ce super jeu !"
     }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "Trinity v2.0"
+      text: "Connor v1.0"
     }
   }});
 }
