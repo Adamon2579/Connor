@@ -1,4 +1,4 @@
-const placard = require('../placard.js')
+const placard = require('../utils/roll.js')
 
 exports.run = (client, message, args) => {
   var msg = args.join(' ');

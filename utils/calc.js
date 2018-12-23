@@ -178,3 +178,4 @@ module.exports = {
   }
 
 }
+// 180 lignes juste pour une calculatrice ? xD

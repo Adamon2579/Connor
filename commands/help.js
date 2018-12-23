@@ -1,5 +1,7 @@
 exports.run = (client, message, args) => {
 
+
+//tout ca juste pour pouvoir dire "Bonsoir Daniel !!!"
   var usr = message.author;
   usr = usr.toString();
   if (usr.includes("!")) {
@@ -8,6 +10,8 @@ exports.run = (client, message, args) => {
     usr = usr.split("@")[1].split(">")[0];
   }
   var usrname = client.users.get(usr).username;
+// ---------------------------------------------
+
 
   message.channel.send({embed: {
     color: 0xc32aed,

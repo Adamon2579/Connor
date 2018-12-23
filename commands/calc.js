@@ -1,4 +1,4 @@
-var calc = require('../calc.js');
+var calc = require('../utils/calc.js');
 
 exports.run = (client, message, args) => {
   var expr = args.join(' ');
