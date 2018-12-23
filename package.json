@@ -1,7 +1,7 @@
 {
-  "name": "Trinity",
+  "name": "Connor",
   "version": "1.0.0",
-  "description": "My First Discord Bot",
+  "description": "Locating deviants",
   "main": "bot.js",
   "author": "Adamon",
   "dependencies": {
@@ -10,6 +10,6 @@
     "fs": "0.0.1-security"
   },
   "scripts": {
-    "start": "node trinity_bot.js"
+    "start": "node connor_bot.js"
   }
 }
