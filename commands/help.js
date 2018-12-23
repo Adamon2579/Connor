@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: `Bonsoir ${message.author} ! Je m'appelle Connor !`,
+    title: `Bonsoir ${message.member.username} ! Je m'appelle Connor !`,
     //pour mettre un lien dans le titre
     //url: "http://google.com",
     description: "Voici la liste des commandes que je connais :",
